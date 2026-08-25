@@ -4,6 +4,7 @@ import { createTypeScriptImportResolver } from 'eslint-import-resolver-typescrip
 import globals from 'globals';
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
 import { createNodeResolver, importX } from 'eslint-plugin-import-x';
+import nodeSecurity from 'eslint-plugin-node-security';
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
@@ -27,8 +28,11 @@ export default tseslint.config(
     },
     plugins: {
       'import-x': importX,
+      'node-security': nodeSecurity,
     },
     rules: {
+      // Guards a webhook signature: === leaks how much of the HMAC matched.
+      'node-security/no-timing-unsafe-compare': 'error',
       'no-useless-assignment': 'off',
       'preserve-caught-error': 'off',
       '@typescript-eslint/no-explicit-any': 'warn',
