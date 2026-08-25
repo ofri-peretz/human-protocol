@@ -717,7 +717,7 @@ __metadata:
     eslint-config-prettier: "npm:^10.1.8"
     eslint-import-resolver-typescript: "npm:^4.4.4"
     eslint-plugin-import-x: "npm:^4.16.2"
-    eslint-plugin-node-security: "npm:5.2.2"
+    eslint-plugin-node-security: "npm:5.2.3"
     eslint-plugin-prettier: "npm:^5.5.6"
     ethers: "npm:~6.17.0"
     globals: "npm:^17.7.0"
@@ -5991,9 +5991,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@interlace/eslint-devkit@npm:^1.17.2":
-  version: 1.17.2
-  resolution: "@interlace/eslint-devkit@npm:1.17.2"
+"@interlace/eslint-devkit@npm:^1.17.3":
+  version: 1.17.3
+  resolution: "@interlace/eslint-devkit@npm:1.17.3"
   peerDependencies:
     "@typescript-eslint/utils": ^7.0.0 || ^8.0.0
     eslint: ^8.40.0 || ^9.0.0 || ^10.0.0
@@ -6006,7 +6006,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/6045409b63b77646bb06bad3970b19964897bd20dad12f45d5188ab97f4dd3ebe093782ac06ea5962ac848338b0acfbc788742864061ad983729c59993d6ac06
+  checksum: 10c0/04a8a9a22a9d3ffa854ba2cd6803510181115ed17ea862f6f3f9fdace63655898327c87eb1a6f48ed793ac99caafafe29038408741da93ce1c6e4cb1a54f4e4e
   languageName: node
   linkType: hard
 
@@ -18861,14 +18861,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-node-security@npm:5.2.2":
-  version: 5.2.2
-  resolution: "eslint-plugin-node-security@npm:5.2.2"
+"eslint-plugin-node-security@npm:5.2.3":
+  version: 5.2.3
+  resolution: "eslint-plugin-node-security@npm:5.2.3"
   dependencies:
-    "@interlace/eslint-devkit": "npm:^1.17.2"
+    "@interlace/eslint-devkit": "npm:^1.17.3"
   peerDependencies:
     eslint: ^8.40.0 || ^9.0.0 || ^10.0.0
-  checksum: 10c0/22bca8f36411a77fcde707675d741ba337ef531b02bdb99f0ee725d62445cd5e09e1471eee1e64c2491e18a2920097231a9f20195a491e50206a1ab707490224
+  checksum: 10c0/627444323d581ae1d94e7fce5ca1db95cd4ef8c6a84d8b317998a6944a4c4e686e9631f853a8808a1502ce78f48c960ddf40c18da3420f5a5ae08a844bc53863
   languageName: node
   linkType: hard
 
